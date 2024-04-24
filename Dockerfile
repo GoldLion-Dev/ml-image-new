@@ -25,3 +25,5 @@ EXPOSE 5000
 
 # Define environment variable
 ENV FLASK_APP=api.py
+
+CMD ["flask", "run", "--host=0.0.0.0"]
